@@ -1,0 +1,57 @@
+@charset "utf-8";
+ 
+:root {
+ --app-dark-bg: #1a1d28;
+ --app-white: #ffff;
+ --app-grey: #6b6b6b;
+ --app-red: #ff3c57;
+ --app-green: #33ab4e;
+ --app-purple: #833cff;
+ --app-orange: #ff833c;
+ --app-blue: #3c57ff;
+ --app-blue-hover: #364ee6;
+}
+
+body {
+    background-color: var(--app-dark-bg);
+}
+
+.constainer {
+    width: min(100% - 30px, 1080px);
+    margin-inline: auto;
+}
+
+.information{
+    width: 350px;
+    text-align: center;
+}
+
+h2 {
+    color: var(--app-white);
+    background-color: var(--app-grey);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+h3:first-of-type {
+    margin-top: 20px;
+}
+
+h3 {
+    color: var(--app-white);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+h3 + h3 {
+    margin-top: 5px;
+}
+
+#onlineStatus {
+    font-size: 22px;
+    color: var(--app-white);
+    background-color: var(--app-green);
+    width: 250px;
+    margin: 20px 0 0 635px;
+    padding-top: 5px;
+}
