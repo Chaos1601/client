@@ -70,5 +70,5 @@ h3 + h3 {
     background-color: var(--app-green);
     width: 250px;
     margin: 20px 0 0 635px;
-    padding-top: 5px;
+    padding: 10px;
 }
