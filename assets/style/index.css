@@ -57,7 +57,7 @@ h3 {
     color: var(--app-white);
     font-size: 18px;
     font-weight: 600;
-    margin: 10px auto;
+    margin: 10px auto 15px auto;
 }
 
 h3 + h3 {
