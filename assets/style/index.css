@@ -46,6 +46,7 @@ h2 {
     background-color: var(--app-grey);
     font-size: 22px;
     font-weight: 600;
+    margin: 10px auto;
 }
 
 h3:first-of-type {
@@ -56,6 +57,7 @@ h3 {
     color: var(--app-white);
     font-size: 18px;
     font-weight: 600;
+    margin: 10px auto;
 }
 
 h3 + h3 {
