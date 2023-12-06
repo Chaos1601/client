@@ -1,23 +1,5 @@
 'use strict';
 
-const system = document.getElementById('system');
-const windows = document.getElementById('windows');
-const batteryStatus = document.getElementById('battery-status');
-const os = document.getElementById('os');
-const language = document.getElementById('language');
-const browser = document.getElementById('browser');
-const pageW = document.getElementById('page-w');
-const pageH = document.getElementById('page-h');
-const orientation = document.getElementById('orientation');
-const level = document.getElementById('level');
-const status = document.getElementById('status');
-const onlineStatus = document.getElementById('online-status');
-
-
-// function onEvent(event, selector, callback) {
-//     return selector.addEventListener(event, callback);
-// }
-
 function select(selector, parent = document) {
     return parent.querySelector(selector);
 }
@@ -34,6 +16,23 @@ function create(element, parent = document) {
     return parent.createElement(element);
 }
 
+const system = selectById('system');
+const windows = selectById('windows');
+const batteryStatus = selectById('battery-status');
+const os = selectById('os');
+const language = selectById('language');
+const browser = selectById('browser');
+const pageW = selectById('page-w');
+const pageH = selectById('page-h');
+const orientation = selectById('orientation');
+const level = selectById('level');
+const status = selectById('status');
+const onlineStatus = selectById('online-status');
+
+
+// function onEvent(event, selector, callback) {
+//     return selector.addEventListener(event, callback);
+// }
 
 // System
 
